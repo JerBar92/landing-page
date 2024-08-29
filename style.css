@@ -16,7 +16,8 @@ header {
   align-items: center;
 }
 
-button {
+button,
+.action {
   background: #3882f6;
   color: white;
 }
@@ -25,6 +26,7 @@ h1 {
   font-size: 48px;
   font-weight: extra-bold;
   color: #f9faf8;
+  max-width: 70%;
 }
 
 h2 {
@@ -36,7 +38,8 @@ h2 {
   height: 60px;
 }
 header,
-.one {
+.one,
+footer {
   background: #1f2937;
 }
 .headerLinks {
@@ -58,6 +61,7 @@ header,
 .oneText {
   font-size: 18px;
   color: #e5e7eb;
+  max-width: 80%;
 }
 
 .one button {
@@ -71,7 +75,7 @@ header,
 }
 
 .oneLeft {
-  width: 35%;
+  width: 40%;
 }
 .two {
   margin: 60px 0;
@@ -80,12 +84,12 @@ header,
 .twoImages {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
 }
 
 .twoImages img {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border-radius: 15%;
 }
 
@@ -95,14 +99,14 @@ header,
 }
 
 .info p {
-  max-width: 150px;
+  max-width: 200px;
 }
 .three {
   padding: 60px 150px;
   background: #e5e7eb;
 }
 .quote {
-  max-width: 80%;
+  max-width: 70%;
   margin: auto;
 }
 blockquote {
@@ -117,11 +121,25 @@ blockquote {
   padding: 10px 0 0 0;
   text-align: end;
 }
-.four {
+.action {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px auto;
+  border-radius: 5px;
+  padding: 40px 0;
+  max-width: 60%;
+}
+
+.callSignUp button {
+  padding: 5px 25px;
+  border-radius: 12%;
+  border-color: white;
+  border-style: solid;
 }
 
 footer {
   text-align: center;
+  color: #e5e7eb;
+  padding: 20px 0;
 }
